@@ -65,4 +65,8 @@ page_dict["About us"] = about_pages
 
 
 pg = st.navigation(page_dict)
+
+st.caption(
+    "Aplicación recuperada y corregida | "
+    "Nombre: José Carlos Granados García | Matrícula: A01659312")
 pg.run()
